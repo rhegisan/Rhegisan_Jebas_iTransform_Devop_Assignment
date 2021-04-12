@@ -1,0 +1,50 @@
+USE GIT AND LOCAL VCS.
+
+mkdir project_dir, cd project_dir
+git init
+touch index.html
+git status
+git add index.html
+git commit -m "adding index.html"
+touch info.txt
+git status
+touch .gitignore (add *.txt in .gitignore file)
+git status
+git add index.html, git commit -m "adding hello world in index.html"
+git log --oneline
+modify index.html
+git restore index.html
+modify index.html
+git add index.html
+git restore --staged index.html
+git config --global alias.my-add add
+git my-add index.html, git commit -m "added name"
+git reset HEAD~
+
+
+CASE STUDY 1
+
+git clone git@github.com:satyensingh/content-git-quickstart.git
+cd content-git-quickstart
+git init
+git status
+git branch story
+git checkout story
+touch story.txt
+git add *.txt
+git commit -m "airplane story"
+
+
+CASE STUDY 2
+
+
+
+
+
+
+
+
+
+
+
+
