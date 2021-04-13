@@ -1,0 +1,1 @@
+This directory contains all the git and github assignments.

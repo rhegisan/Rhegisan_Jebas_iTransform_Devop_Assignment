@@ -1,43 +1,49 @@
-USE GIT AND LOCAL VCS.
 
-mkdir project_dir, cd project_dir
-git init
-touch index.html
-git status
-git add index.html
-git commit -m "adding index.html"
-touch info.txt
-git status
-touch .gitignore (add *.txt in .gitignore file)
-git status
-git add index.html, git commit -m "adding hello world in index.html"
-git log --oneline
-modify index.html
-git restore index.html
-modify index.html
-git add index.html
-git restore --staged index.html
-git config --global alias.my-add add
-git my-add index.html, git commit -m "added name"
-git reset HEAD~
+-------Section 1,2,3-----------
+-------GIT BRANCHING AND GIT REMOTING-------
 
 
-CASE STUDY 1
-
-git clone git@github.com:satyensingh/content-git-quickstart.git
-cd content-git-quickstart
-git init
-git status
-git branch story
-git checkout story
-touch story.txt
-git add *.txt
-git commit -m "airplane story"
+Html,Css,Javascript project pushed to remote repository named freshersbatch-oct2016 inside Assignments directory. 
+Github repository link :- 
+https://github.com/rhegisan/freshersbatch-oct2016
 
 
-CASE STUDY 2
+Commited and Pushed SampleProject using Eclipse GIT plugin
+Github repository link :- 
+https://github.com/rhegisan/SampleProj
 
 
+
+
+-------CASE STUDY 1------------
+
+Forked the repository and then cloned it to local repository followed by adding story.txt and modifying contributor.txt.
+further sent a pull request to the owner of the repository to add my name in the contributor.txt file.
+
+Github repository link :- https://github.com/rhegisan/content-git-quickstart/tree/story
+
+
+-------CASE STUDY 3-----------
+
+Created a remote repository and added README.md file
+
+Github repository link :- https://github.com/rhegisan/content-git-quickstart/tree/story
+
+
+-------CASE STUDY 4-----------
+
+Created a different branch and corrected the CASE STUDY 3 README.md file and merged the changes into the master branch.
+Transferred the decision making to senior he will merge the changes if it satisfies the companys standard. 
+
+Github repository link :- https://github.com/rhegisan/web-api/tree/fix-readme
+
+
+-------CASE STUDY 5------------
+
+Forked a repository and created a feature branch to modify the index.jade file and 
+then sent a pull request to the owner of repository to merge the changed file.
+
+Github repository link :- https://github.com/rhegisan/train-schedule-app/tree/feature
 
 
 
