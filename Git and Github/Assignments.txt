@@ -1,3 +1,26 @@
+-------Section 0-----------
+-------Use GIT as local Version Control System-------
+
+1. mkdir project_dir , cd project_dir
+2. git init
+3. touch index.html
+4. git status
+5. git add index.html
+6. git commit -m "first commit"
+7. nano index.html -> <HTML> , touch info.txt
+8. git status
+9. touch .gitignore , nano .gitignore  -> .*.txt
+10. git status 
+11. git add index.html , git commit -m "Second commit"
+12. git log
+13. nano index.html -> <HEAD> 
+14. git restore index.html
+15. nano index.html -> <HEAD>
+16. git add index.html
+17. git restore --staged index.html
+18. git config --global alias.my-add add
+19. git my-add index.html , git commit -m "Third commit"
+20. git reset HEAD~
 
 -------Section 1,2,3-----------
 -------GIT BRANCHING AND GIT REMOTING-------
@@ -13,7 +36,7 @@ Github repository link :-
 https://github.com/rhegisan/SampleProj
 
 
-
+-------- SCENARIO BASED QUESTIONS----------
 
 -------CASE STUDY 1------------
 
@@ -21,6 +44,11 @@ Forked the repository and then cloned it to local repository followed by adding 
 further sent a pull request to the owner of the repository to add my name in the contributor.txt file.
 
 Github repository link :- https://github.com/rhegisan/content-git-quickstart/tree/story
+
+
+-------CASE STUDY 2------------
+
+According to the scenario, Successfully initialized a secure shell(ssh) connection.  
 
 
 -------CASE STUDY 3-----------
