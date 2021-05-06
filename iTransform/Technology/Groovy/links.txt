@@ -1,0 +1,29 @@
+URL:
+- http://docs.groovy-lang.org/latest/html/groovy-jdk/java/net/URL.html
+- https://www.leveluplunch.com/groovy/examples/get-webpage-content-url-uri/
+- https://binarybuffer.com/post/2012-05-09-parsing-html-pages-like-a-boss-with-groovy/
+
+
+METHODS:
+- http://docs.groovy-lang.org/docs/groovy-2.4.0/html/gapi/org/codehaus/groovy/runtime/StringGroovyMethods.html
+
+
+CLOSURES:
+- https://www.youtube.com/watch?v=fdpKCuJKbMg
+
+
+CONVERSION:
+- https://stackoverflow.com/questions/18571223/how-to-convert-java-string-into-byte
+- https://dzone.com/articles/groovy-goodness-converting#:~:text=To%20convert%20a%20byte%5B%5D,to%20a%20hex%20String%20value.
+
+
+ENCODING AND DECODING:
+- https://gist.github.com/mujahidk/7fdda0c69d11fc3e4a0907ce4ea77537
+- https://dzone.com/articles/groovy-goodness-converting#:~:text=To%20convert%20a%20byte%5B%5D,to%20a%20hex%20String%20value.
+
+
+SORTING:
+- https://stackoverflow.com/questions/4894197/sort-a-list-of-lists-in-groovy
+
+
+

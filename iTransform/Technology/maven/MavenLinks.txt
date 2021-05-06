@@ -1,0 +1,100 @@
+COURSE:
+- https://app.pluralsight.com/library/courses/maven-fundamentals/table-of-contents
+
+
+
+APACHE ON ECLIPSE:
+- https://www.javacodegeek.com/2020/08/how-to-add-tomcat-server-in-eclipse.html#:~:text=Step%201%3A%20Download%20Apache%20Tomcat%20Server&text=We%20can%20download%20it%20by%20going%20to%20the%20Apache%20Website.&text=We%20need%20to%20select%20tomcat,zip%20file%20on%20the%20system.
+
+
+
+SERVLET-API
+- https://mvnrepository.com/artifact/javax.servlet/servlet-api/2.5
+
+
+
+NO-SERVER-ISSUE
+- https://stackoverflow.com/questions/11317854/no-server-in-windowspreferences
+
+
+
+JAR FILE AND WAR FILE:
+- https://stackoverflow.com/questions/5871053/difference-between-jar-and-war-in-java#:~:text=18-,A%20.,application%20on%20a%20user's%20machine.&text=A%20war%20file%20is%20a,it%20on%20an%20application%20server.
+
+
+
+
+SERVLET PLUGIN:
+ <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+  <dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>2.5</version>
+    <scope>provided</scope>
+  </dependency>
+
+
+
+
+JETTY SERVER:
+- https://github.com/tbroyer/gwt-maven-archetypes/issues/57
+
+        <plugin>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-maven-plugin</artifactId>
+      <version>9.2.11.v20150529</version>
+      <configuration>
+      <webApp>
+      <contextPath>/PracticalImplementation</contextPath>
+      </webApp>
+      <httpConnector>
+      <port>8443</port>
+    </httpConnector>
+      </configuration>
+        </plugin>
+          
+
+NO COMPILER RUNNING ON JRE ERROR:
+           <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+            <configuration>
+                <fork>true</fork>
+                <executable>C:\Program Files\Java\jdk1.8.0_291\bin\javac.exe</executable>
+            </configuration>
+        </plugin>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

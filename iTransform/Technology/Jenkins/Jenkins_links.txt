@@ -1,0 +1,19 @@
+COURSE:
+- https://web.microsoftstream.com/video/3ee65373-9cd0-4597-8f9d-93a347c5bb4a
+- https://www.youtube.com/watch?v=89yWXXIOisk&list=PLhW3qG5bs-L_ZCOA4zNPSoGbnVQ-rp_dG
+- https://www.coursera.org/programs/capgemini-learning-program-71mtd?authProvider=capgemini&isExternal=true&productId=MX3gW2nXEeuI4Aqy1at7YQ&productType=course&showMiniModal=true
+- https://www.coursera.org/programs/capgemini-learning-program-71mtd?authProvider=capgemini&isExternal=true&productId=Z-wtBczwEeqDEQ4mUXQPhw&productType=course&showMiniModal=true
+- https://www.coursera.org/programs/capgemini-learning-program-71mtd?authProvider=capgemini&isExternal=true&productId=pbveAWmNEeuI4Aqy1at7YQ&productType=course&showMiniModal=true
+
+DEFAULT JENKINS PORT:
+http://localhost:8080/
+
+
+HOW TO RUN JENKINS AS A SERVICE (solves restart issues):
+- https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+as+a+Windows+service
+
+HOW TO RESTART,SHUTDOWN,QUIET FROM BROWSER (good practice):
+- https://support.cloudbees.com/hc/en-us/articles/216118748-How-to-Start-Stop-or-Restart-your-Instance-#:~:text=Administration%20from%20Jenkins%20The%20easiest%20way%20to%20stop%2Frestart,a%20Quiet%20mode%2C%20in%20preparation%20for%20a%20restart.
+
+HOW TO START,SHUTDOWN,RESTART JENKINS RUNNING AS A SERVICE (only if jenkins causes problems):
+- https://stackoverflow.com/questions/14869311/start-stop-and-restart-jenkins-service-on-windows

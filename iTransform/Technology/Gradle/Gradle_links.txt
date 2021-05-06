@@ -1,0 +1,27 @@
+COURSE:
+- https://www.youtube.com/watch?v=Nabjqv8KDgc
+- https://www.youtube.com/watch?v=h6Figshq6_I&t=54s
+- https://www.youtube.com/watch?v=fKHJlEjvSeI
+- https://www.youtube.com/watch?v=o6wYS9x1cCk&t=3s
+- https://www.youtube.com/watch?v=aYu994I8Z6I&list=PLMxpKvJf0K0QUyvmkKZu7WpwTVzdePGTl
+- https://app.pluralsight.com/library/courses/gradle-build-tool-fundamentals/table-of-contents
+- https://app.pluralsight.com/library/courses/gradle-fundamentals/table-of-contents
+
+DOCUMENTATION:
+- https://gradle.org/
+- https://docs.gradle.org/current/userguide/userguide.html
+
+GRADLE DAEMON:
+- http://sorcersoft.org/project/site/gradle/userguide/gradle_daemon.html
+- https://www.tutorialandexample.com/gradle-daemon/
+
+
+
+
+
+
+
+
+
+
+
